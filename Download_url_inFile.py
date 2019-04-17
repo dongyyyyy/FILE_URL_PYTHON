@@ -1,7 +1,7 @@
 import urllib.request
 
 f = open("Image_url.txt","r") # 읽기 모드로 오픈
-strs = "imageNet_person."
+strs = "imageNet_person"
 count = 1
 while True: # 무한 반복
     line = f.readline()
