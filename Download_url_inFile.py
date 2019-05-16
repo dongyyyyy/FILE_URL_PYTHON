@@ -9,8 +9,9 @@ while True: # 무한 반복
     line = f.readline()
     if not line : break # 파일 끝
     url = p.findall(line) #  url변수에 파일 내용 저장
-    if ( url[0][0:3] == 'n10' or url[0][0:3]=='n09'):
+    if ( url[0][0:3] == 'n10' or url[0][0:3]=='n095' or url[0][0:3]=='n096' or url[0][0:3]=='n097' or url[0][0:3]=='n098' or url[0][0:3]=='n099'):
         try:
+            print(url[0]);
             urllib.request.urlretrieve(url[1], "G:/imagenet/" + strs + str(count) + ".jpg")
             count += 1
         except:
