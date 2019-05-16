@@ -1,6 +1,6 @@
 f = open("text.txt","w")
 
-strs = '/home/kdy/information/cfg/img/imageNet_person'
+strs = '/home/kdy/information/img/img1/person_'
 n = int(input('최종번호를 입력하시오 : '))
 
 
